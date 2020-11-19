@@ -1,0 +1,30 @@
+<p>configuration-checkup works!</p>
+<div *ngFor="let configuration-checkup of configurations">
+    <h2>{{configuration-checkup.type}}</h2>
+  
+      <p>
+        {{configuration-checkup.status}}
+      </p>
+      <a href="{{configuration-checkup.service.url}}"> Go to configuration
+      </a>
+
+  </div>
+<!--   
+  <span class="fd-badge">Label</span>
+  <span class="fd-badge fd-badge--filled">Label</span>
+  <span class="fd-badge fd-badge--pill"> Label </span>
+  
+  Hello again 
+  <div class="fd-tile-grid fd-tile-grid--1col">
+    <div class="fd-product-tile" role="button" style="margin-left: 0.5rem"
+      routerLink="/files">
+      <div class="fd-product-tile__media"
+        style="background-image: url('https://experience.sap.com/wp-content/uploads/2019/05/INM-CEI.jpg');">
+      </div>
+      <div class="fd-product-tile__title">
+        <h3>Files Repository</h3>
+      </div>
+      <div class="fd-product-tile__content">
+        You can find all of the files here.
+      </div>
+    </div> -->
