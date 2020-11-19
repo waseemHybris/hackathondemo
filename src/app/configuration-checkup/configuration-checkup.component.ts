@@ -13,7 +13,7 @@ configurations: any;
   ngOnInit(): void {
     this.apiService.getNews().subscribe((data) => {
       console.log(data);
-      this.configurations = data.configurations;
+      this.configurations = data.articles;
     });
   }
 

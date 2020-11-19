@@ -1,13 +1,21 @@
 <p>configuration-checkup works!</p>
-<div *ngFor="let configuration-checkup of configurations">
-    <h2>{{configuration-checkup.type}}</h2>
-  
+<!-- <div *ngFor="let configuration of configurations">
+    <h2>{{configuration.title}}</h2>
       <p>
-        {{configuration-checkup.status}}
+        {{configuration.title}}
       </p>
-      <a href="{{configuration-checkup.service.url}}"> Go to configuration
+      <a href="{{configuration.service.url}}"> Go to configuration
       </a>
 
+  </div> -->
+
+  <div *ngFor="let article of configurations">
+    <h2>{{article.author}}</h2>
+  
+      <p>
+        {{article.name}}
+      </p>
+      <a href="{{article.url}}">Read full article</a>
   </div>
 <!--   
   <span class="fd-badge">Label</span>
