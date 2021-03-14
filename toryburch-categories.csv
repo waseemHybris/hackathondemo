@@ -1,0 +1,3 @@
+catID,catName,catDescription,catImages,parentCatName,parentCatID
+cat1001,Accessories,,https://s3.amazonaws.com/caas-demo-products/b2c-accelerator/Tory/CategoryImages/TBUS_PF18_Accessories_NewArrivals_Header_3x.jpg|https://s3.amazonaws.com/caas-demo-products/b2c-accelerator/Tory/CategoryImages/TBUS_PF18_7.10_New_Clothing_Header_2x.jpg,,
+,,,,,
